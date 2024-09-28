@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Sat Sep 28 19:40:01 2024 as: nmap -v -Pn -p- -oA pinkys-palace-v3-all-ports-scan-output 192.168.1.4
+Nmap scan report for 192.168.1.4
+Host is up (0.00097s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+MAC Address: 08:00:27:6C:A1:F6 (Oracle VirtualBox virtual NIC)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Sep 28 19:40:06 2024 -- 1 IP address (1 host up) scanned in 5.42 seconds
